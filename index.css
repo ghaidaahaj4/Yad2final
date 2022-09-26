@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(255, 235, 205, 0.885);
+    font-family: 'Cairo', sans-serif;
+}
+
+h2{
+    color: #000;
+
+}
+
+.main{
+    width: 40%;
+    background-color: blanchedalmond;
+    box-shadow: 1px 1px 10px wheat;
+    margin-top: 45px;
+    padding:10px ;
+}
+input{
+    text-align: right;
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 5px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+button{
+    border: none;
+    padding: 10px;
+    width: 60%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1A936F;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+label{
+    background-color: #114c5f35;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: tomato;
+    font-weight: bold;
+
+}
+
+textarea{
+    border-color: rgb(239, 235, 235);
+    resize: none;
+    text-align: right;
+    cursor: pointer;
+    font-weight: bold;  
+    font-family: 'Cairo', sans-serif;
+}
