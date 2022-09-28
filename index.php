@@ -28,7 +28,10 @@
                 <input type="file" id="file" name='image' style='display:none;'>
                 <button name='upload'>رفع المنتج</button>
                 <br>
-                <a herf="products.php">عرض جميع المنتجات</a>    
+                <a href ="https://github.com/ghaidaahaj4/Yad2final"> عرض </a>
+                <br>
+                <a herf= "pages/products.php">عرض جميع المنتجات</a>  
+                <input type="button" onclick="location.href='pages/products.php';" value="عرض جميع المنتجات" />  
             </form>
         </div>
         <p> Developed BY BYG</p>
