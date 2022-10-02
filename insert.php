@@ -2,7 +2,7 @@
 
 include('config.php');
 
-if(issset($_POST('upload'))){
+if(isset($_POST['upload'])){
     $NAME=$_POST['name'];
     $PRICE=$_POST['price'];
     $IMAGE=$_FILES['image'];
