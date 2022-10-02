@@ -21,21 +21,21 @@
     include('config.php');
     $result= mysqli_query($con,"SELECT * FROM prod");
     while($row = mysqli_ferch_array($result)){
-        echo '
+        echo "
         <center>
         <main>
-        <div class="card" style="width: 18rem;">
-           <img src="..." class="card-img-top" alt="...">
-           <div class="card-body">
-           <h5 class="card-title"> </h5>
-           <p class="card-text"> </p>
-           <a href="#" class="btn btn-danger">حذف المنتج</a>
-           <a href="#" class="btn btn-primary">تعديل المنتج</a>
+        <div class='card' style='width: 18rem;'>
+           <img src='$row[image]' class='card-img-top' alt='...'>
+           <div class='card-body'>
+           <h5 class='card-title'>$row[name]</h5>
+           <p class='card-text'>$row[price] </p>
+           <a href='#' class='btn btn-danger'>حذف المنتج</a>
+           <a href='#' class='btn btn-primary'>تعديل المنتج</a>
       </div>
     </div>
         </main>
         <center>
-        ';
+        ";
     }
 
     ?>
